@@ -1,4 +1,4 @@
-#Check figure four, magpi #71
+import pgzrun
 WIDTH = 700
 HEIGHT = 800
 from random import randint
@@ -63,3 +63,4 @@ def updateTrack():
         if trackPosition < trackWidth: trackDirection = False
         makeTrack()
 makeTrack()
+pgzrun.go()
